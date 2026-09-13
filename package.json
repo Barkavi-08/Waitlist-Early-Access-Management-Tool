@@ -1,0 +1,28 @@
+{
+  "name": "waitlist-management-tool",
+  "version": "1.0.0",
+  "description": "Waitlist & Early-Access Management Tool with Referral System",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "node client/node_modules/vite/bin/vite.js client",
+    "dev": "node ./node_modules/concurrently/dist/bin/concurrently.js \"node server/server.js\" \"node client/node_modules/vite/bin/vite.js client\"",
+    "seed": "node server/db/seed.js",
+    "test": "node server/test-endpoints.js",
+    "build": "node client/node_modules/vite/bin/vite.js build client"
+  },
+  "keywords": [
+    "waitlist",
+    "referral",
+    "early-access",
+    "react",
+    "express",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

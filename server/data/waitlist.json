@@ -1,0 +1,319 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sarah Chen",
+      "email": "sarah.chen@example.com",
+      "referral_code": "SARA-C05752",
+      "referred_by": null,
+      "referral_count": 8,
+      "status": "granted",
+      "access_granted_at": "2026-09-12T23:45:47.952Z",
+      "created_at": "2026-09-12T23:45:47.911Z",
+      "updated_at": "2026-09-12T23:45:47.952Z"
+    },
+    {
+      "id": 2,
+      "name": "Marcus Johnson",
+      "email": "marcus.j@example.com",
+      "referral_code": "MARC-59E0DF",
+      "referred_by": null,
+      "referral_count": 6,
+      "status": "granted",
+      "access_granted_at": "2026-09-12T23:45:47.989Z",
+      "created_at": "2026-09-12T23:45:47.964Z",
+      "updated_at": "2026-09-12T23:45:47.989Z"
+    },
+    {
+      "id": 3,
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "referral_code": "PRIY-0B2767",
+      "referred_by": null,
+      "referral_count": 5,
+      "status": "granted",
+      "access_granted_at": "2026-09-13T00:54:32.657Z",
+      "created_at": "2026-09-12T23:45:47.998Z",
+      "updated_at": "2026-09-13T00:54:32.657Z"
+    },
+    {
+      "id": 4,
+      "name": "Alex Rivera",
+      "email": "alex.rivera@example.com",
+      "referral_code": "ALEX-D44F5F",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 4,
+      "status": "granted",
+      "access_granted_at": "2026-09-13T00:54:32.657Z",
+      "created_at": "2026-09-12T23:45:48.017Z",
+      "updated_at": "2026-09-13T00:54:32.657Z"
+    },
+    {
+      "id": 5,
+      "name": "Liam Wilson",
+      "email": "liam.w@example.com",
+      "referral_code": "LIAM-71406F",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 3,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.030Z",
+      "updated_at": "2026-09-12T23:45:48.036Z"
+    },
+    {
+      "id": 6,
+      "name": "Emma Watson",
+      "email": "emma.watson@example.com",
+      "referral_code": "EMMA-65A854",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 2,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.039Z",
+      "updated_at": "2026-09-12T23:45:48.043Z"
+    },
+    {
+      "id": 7,
+      "name": "Noah Davis",
+      "email": "noah.davis@example.com",
+      "referral_code": "NOAH-B83713",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 2,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.049Z",
+      "updated_at": "2026-09-12T23:45:48.053Z"
+    },
+    {
+      "id": 8,
+      "name": "Aaliyah Patel",
+      "email": "aaliyah.p@example.com",
+      "referral_code": "AALI-BC17E2",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 1,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.056Z",
+      "updated_at": "2026-09-12T23:45:48.059Z"
+    },
+    {
+      "id": 9,
+      "name": "Lucas Martin",
+      "email": "lucas.m@example.com",
+      "referral_code": "LUCA-1CB535",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 1,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.065Z",
+      "updated_at": "2026-09-12T23:45:48.067Z"
+    },
+    {
+      "id": 10,
+      "name": "Chloe Taylor",
+      "email": "chloe.t@example.com",
+      "referral_code": "CHLO-1912CC",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 1,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.070Z",
+      "updated_at": "2026-09-12T23:45:48.072Z"
+    },
+    {
+      "id": 11,
+      "name": "David Kim",
+      "email": "david.kim@example.com",
+      "referral_code": "DAVI-1465C7",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 0,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.075Z",
+      "updated_at": "2026-09-12T23:45:48.075Z"
+    },
+    {
+      "id": 12,
+      "name": "Sophia Brown",
+      "email": "sophia.b@example.com",
+      "referral_code": "SOPH-CC519A",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 0,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.081Z",
+      "updated_at": "2026-09-12T23:45:48.081Z"
+    },
+    {
+      "id": 13,
+      "name": "Daniel Miller",
+      "email": "daniel.m@example.com",
+      "referral_code": "DANI-351B7B",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 0,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.085Z",
+      "updated_at": "2026-09-12T23:45:48.085Z"
+    },
+    {
+      "id": 14,
+      "name": "Mia Anderson",
+      "email": "mia.a@example.com",
+      "referral_code": "MIAA-740D90",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 0,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.089Z",
+      "updated_at": "2026-09-12T23:45:48.089Z"
+    },
+    {
+      "id": 15,
+      "name": "James Wilson",
+      "email": "james.w@example.com",
+      "referral_code": "JAME-152A4B",
+      "referred_by": "SARAH-A1B2",
+      "referral_count": 0,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:45:48.096Z",
+      "updated_at": "2026-09-12T23:45:48.096Z"
+    },
+    {
+      "id": 16,
+      "name": "Test Student",
+      "email": "student@college.edu",
+      "referral_code": "TEST-F9CE1F",
+      "referred_by": null,
+      "referral_count": 1,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:46:58.288Z",
+      "updated_at": "2026-09-12T23:47:14.735Z"
+    },
+    {
+      "id": 17,
+      "name": "Friend One",
+      "email": "friend1@college.edu",
+      "referral_code": "FRIE-23B817",
+      "referred_by": "TEST-F9CE1F",
+      "referral_count": 0,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-12T23:47:14.728Z",
+      "updated_at": "2026-09-12T23:47:14.728Z"
+    },
+    {
+      "id": 18,
+      "name": "Alice Walker",
+      "email": "alice_1789260872147@example.com",
+      "referral_code": "ALIC-A840F1",
+      "referred_by": null,
+      "referral_count": 1,
+      "status": "granted",
+      "access_granted_at": "2026-09-13T00:54:32.633Z",
+      "created_at": "2026-09-13T00:54:32.455Z",
+      "updated_at": "2026-09-13T00:54:32.633Z"
+    },
+    {
+      "id": 19,
+      "name": "Bob Roberts",
+      "email": "bob_1789260872523@example.com",
+      "referral_code": "BOBR-CC1059",
+      "referred_by": "ALIC-A840F1",
+      "referral_count": 0,
+      "status": "waitlisted",
+      "access_granted_at": null,
+      "created_at": "2026-09-13T00:54:32.538Z",
+      "updated_at": "2026-09-13T00:54:32.538Z"
+    }
+  ],
+  "referrals": [
+    {
+      "id": 1,
+      "referrer_code": "TEST-F9CE1F",
+      "referred_email": "friend1@college.edu",
+      "created_at": "2026-09-12T23:47:14.740Z"
+    },
+    {
+      "id": 2,
+      "referrer_code": "ALIC-A840F1",
+      "referred_email": "bob_1789260872523@example.com",
+      "created_at": "2026-09-13T00:54:32.549Z"
+    }
+  ],
+  "adminUsers": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2a$10$wjGxU1u7NvOqzgbl/.oMo.LaBy9vQ.capK4eVf7ZbNPF5XkEJr1wC",
+      "created_at": "2026-09-12T23:46:27.227Z"
+    }
+  ],
+  "emailLogs": [
+    {
+      "id": 7,
+      "recipient": "alex.rivera@example.com",
+      "subject": "🚀 You're In! Early Access Granted to Nova",
+      "type": "access_granted",
+      "content": "\n    <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #10b981; border-radius: 8px;\">\n      <h2 style=\"color: #059669; margin-bottom: 8px;\">🎉 Access Granted!</h2>\n      <p>Hi <strong>Alex Rivera</strong>,</p>\n      <p>The wait is over! Your early-access invitation to <strong>Nova</strong> is officially active.</p>\n      \n      <div style=\"background-color: #ecfdf5; border-left: 4px solid #10b981; padding: 16px; margin: 20px 0; border-radius: 4px;\">\n        <p style=\"margin: 0; font-size: 16px; font-weight: 600; color: #065f46;\">\n          Status: Access Unlocked (Wave 1 Rollout)\n        </p>\n        <p style=\"margin: 6px 0 0 0; font-size: 13px; color: #047857;\">\n          Total friends referred: <strong>4</strong>\n        </p>\n      </div>\n\n      <div style=\"text-align: center; margin: 28px 0;\">\n        <a href=\"http://localhost:5173\" style=\"background-color: #059669; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: bold; display: inline-block;\">\n          Enter Nova Workspace &rarr;\n        </a>\n      </div>\n\n      <p style=\"font-size: 13px; color: #64748b; margin-top: 30px;\">\n        Enjoy your early access!<br/>\n        &copy; 2026 Nova Tech.\n      </p>\n    </div>\n  ",
+      "status": "sent",
+      "created_at": "2026-09-13T00:54:32.673Z"
+    },
+    {
+      "id": 6,
+      "recipient": "priya.sharma@example.com",
+      "subject": "🚀 You're In! Early Access Granted to Nova",
+      "type": "access_granted",
+      "content": "\n    <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #10b981; border-radius: 8px;\">\n      <h2 style=\"color: #059669; margin-bottom: 8px;\">🎉 Access Granted!</h2>\n      <p>Hi <strong>Priya Sharma</strong>,</p>\n      <p>The wait is over! Your early-access invitation to <strong>Nova</strong> is officially active.</p>\n      \n      <div style=\"background-color: #ecfdf5; border-left: 4px solid #10b981; padding: 16px; margin: 20px 0; border-radius: 4px;\">\n        <p style=\"margin: 0; font-size: 16px; font-weight: 600; color: #065f46;\">\n          Status: Access Unlocked (Wave 1 Rollout)\n        </p>\n        <p style=\"margin: 6px 0 0 0; font-size: 13px; color: #047857;\">\n          Total friends referred: <strong>5</strong>\n        </p>\n      </div>\n\n      <div style=\"text-align: center; margin: 28px 0;\">\n        <a href=\"http://localhost:5173\" style=\"background-color: #059669; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: bold; display: inline-block;\">\n          Enter Nova Workspace &rarr;\n        </a>\n      </div>\n\n      <p style=\"font-size: 13px; color: #64748b; margin-top: 30px;\">\n        Enjoy your early access!<br/>\n        &copy; 2026 Nova Tech.\n      </p>\n    </div>\n  ",
+      "status": "sent",
+      "created_at": "2026-09-13T00:54:32.666Z"
+    },
+    {
+      "id": 5,
+      "recipient": "alice_1789260872147@example.com",
+      "subject": "🚀 You're In! Early Access Granted to Nova",
+      "type": "access_granted",
+      "content": "\n    <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #10b981; border-radius: 8px;\">\n      <h2 style=\"color: #059669; margin-bottom: 8px;\">🎉 Access Granted!</h2>\n      <p>Hi <strong>Alice Walker</strong>,</p>\n      <p>The wait is over! Your early-access invitation to <strong>Nova</strong> is officially active.</p>\n      \n      <div style=\"background-color: #ecfdf5; border-left: 4px solid #10b981; padding: 16px; margin: 20px 0; border-radius: 4px;\">\n        <p style=\"margin: 0; font-size: 16px; font-weight: 600; color: #065f46;\">\n          Status: Access Unlocked (Wave 1 Rollout)\n        </p>\n        <p style=\"margin: 6px 0 0 0; font-size: 13px; color: #047857;\">\n          Total friends referred: <strong>1</strong>\n        </p>\n      </div>\n\n      <div style=\"text-align: center; margin: 28px 0;\">\n        <a href=\"http://localhost:5173\" style=\"background-color: #059669; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: bold; display: inline-block;\">\n          Enter Nova Workspace &rarr;\n        </a>\n      </div>\n\n      <p style=\"font-size: 13px; color: #64748b; margin-top: 30px;\">\n        Enjoy your early access!<br/>\n        &copy; 2026 Nova Tech.\n      </p>\n    </div>\n  ",
+      "status": "sent",
+      "created_at": "2026-09-13T00:54:32.639Z"
+    },
+    {
+      "id": 4,
+      "recipient": "bob_1789260872523@example.com",
+      "subject": "🎉 You're on the waitlist! (Position #19)",
+      "type": "welcome_waitlist",
+      "content": "\n    <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n      <h2 style=\"color: #4f46e5; margin-bottom: 8px;\">Welcome to Nova Early Access!</h2>\n      <p>Hi <strong>Bob Roberts</strong>,</p>\n      <p>You've successfully secured your spot on our early-access waitlist.</p>\n      \n      <div style=\"background-color: #f8fafc; border-left: 4px solid #4f46e5; padding: 16px; margin: 20px 0; border-radius: 4px;\">\n        <p style=\"margin: 0; font-size: 14px; color: #64748b;\">Current Waitlist Position</p>\n        <p style=\"margin: 4px 0 0 0; font-size: 28px; font-weight: bold; color: #1e293b;\">#19</p>\n      </div>\n\n      <h3 style=\"margin-top: 24px; color: #1e293b;\">Move Up Faster with Referrals</h3>\n      <p>Invite friends to join. Each friend who signs up with your link pushes you closer to the front of the queue.</p>\n      \n      <div style=\"background: #eef2ff; padding: 12px; border-radius: 6px; word-break: break-all; margin: 16px 0;\">\n        <span style=\"font-size: 13px; color: #4338ca;\">Your Referral Link:</span><br/>\n        <a href=\"http://localhost:5173?ref=BOBR-CC1059\" style=\"color: #4f46e5; font-weight: bold;\">http://localhost:5173?ref=BOBR-CC1059</a>\n      </div>\n\n      <p style=\"font-size: 13px; color: #64748b; margin-top: 30px;\">\n        Questions? Simply reply to this email.<br/>\n        &copy; 2026 Nova Tech.\n      </p>\n    </div>\n  ",
+      "status": "sent",
+      "created_at": "2026-09-13T00:54:32.556Z"
+    },
+    {
+      "id": 3,
+      "recipient": "alice_1789260872147@example.com",
+      "subject": "🎉 You're on the waitlist! (Position #18)",
+      "type": "welcome_waitlist",
+      "content": "\n    <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n      <h2 style=\"color: #4f46e5; margin-bottom: 8px;\">Welcome to Nova Early Access!</h2>\n      <p>Hi <strong>Alice Walker</strong>,</p>\n      <p>You've successfully secured your spot on our early-access waitlist.</p>\n      \n      <div style=\"background-color: #f8fafc; border-left: 4px solid #4f46e5; padding: 16px; margin: 20px 0; border-radius: 4px;\">\n        <p style=\"margin: 0; font-size: 14px; color: #64748b;\">Current Waitlist Position</p>\n        <p style=\"margin: 4px 0 0 0; font-size: 28px; font-weight: bold; color: #1e293b;\">#18</p>\n      </div>\n\n      <h3 style=\"margin-top: 24px; color: #1e293b;\">Move Up Faster with Referrals</h3>\n      <p>Invite friends to join. Each friend who signs up with your link pushes you closer to the front of the queue.</p>\n      \n      <div style=\"background: #eef2ff; padding: 12px; border-radius: 6px; word-break: break-all; margin: 16px 0;\">\n        <span style=\"font-size: 13px; color: #4338ca;\">Your Referral Link:</span><br/>\n        <a href=\"http://localhost:5173?ref=ALIC-A840F1\" style=\"color: #4f46e5; font-weight: bold;\">http://localhost:5173?ref=ALIC-A840F1</a>\n      </div>\n\n      <p style=\"font-size: 13px; color: #64748b; margin-top: 30px;\">\n        Questions? Simply reply to this email.<br/>\n        &copy; 2026 Nova Tech.\n      </p>\n    </div>\n  ",
+      "status": "sent",
+      "created_at": "2026-09-13T00:54:32.495Z"
+    },
+    {
+      "id": 2,
+      "recipient": "friend1@college.edu",
+      "subject": "🎉 You're on the waitlist! (Position #17)",
+      "type": "welcome_waitlist",
+      "content": "\n    <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n      <h2 style=\"color: #4f46e5; margin-bottom: 8px;\">Welcome to Nova Early Access!</h2>\n      <p>Hi <strong>Friend One</strong>,</p>\n      <p>You've successfully secured your spot on our early-access waitlist.</p>\n      \n      <div style=\"background-color: #f8fafc; border-left: 4px solid #4f46e5; padding: 16px; margin: 20px 0; border-radius: 4px;\">\n        <p style=\"margin: 0; font-size: 14px; color: #64748b;\">Current Waitlist Position</p>\n        <p style=\"margin: 4px 0 0 0; font-size: 28px; font-weight: bold; color: #1e293b;\">#17</p>\n      </div>\n\n      <h3 style=\"margin-top: 24px; color: #1e293b;\">Move Up Faster with Referrals</h3>\n      <p>Invite friends to join. Each friend who signs up with your link pushes you closer to the front of the queue.</p>\n      \n      <div style=\"background: #eef2ff; padding: 12px; border-radius: 6px; word-break: break-all; margin: 16px 0;\">\n        <span style=\"font-size: 13px; color: #4338ca;\">Your Referral Link:</span><br/>\n        <a href=\"http://localhost:5173?ref=FRIE-23B817\" style=\"color: #4f46e5; font-weight: bold;\">http://localhost:5173?ref=FRIE-23B817</a>\n      </div>\n\n      <p style=\"font-size: 13px; color: #64748b; margin-top: 30px;\">\n        Questions? Simply reply to this email.<br/>\n        &copy; 2026 Nova Tech.\n      </p>\n    </div>\n  ",
+      "status": "sent",
+      "created_at": "2026-09-12T23:47:14.758Z"
+    },
+    {
+      "id": 1,
+      "recipient": "student@college.edu",
+      "subject": "🎉 You're on the waitlist! (Position #16)",
+      "type": "welcome_waitlist",
+      "content": "\n    <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n      <h2 style=\"color: #4f46e5; margin-bottom: 8px;\">Welcome to Nova Early Access!</h2>\n      <p>Hi <strong>Test Student</strong>,</p>\n      <p>You've successfully secured your spot on our early-access waitlist.</p>\n      \n      <div style=\"background-color: #f8fafc; border-left: 4px solid #4f46e5; padding: 16px; margin: 20px 0; border-radius: 4px;\">\n        <p style=\"margin: 0; font-size: 14px; color: #64748b;\">Current Waitlist Position</p>\n        <p style=\"margin: 4px 0 0 0; font-size: 28px; font-weight: bold; color: #1e293b;\">#16</p>\n      </div>\n\n      <h3 style=\"margin-top: 24px; color: #1e293b;\">Move Up Faster with Referrals</h3>\n      <p>Invite friends to join. Each friend who signs up with your link pushes you closer to the front of the queue.</p>\n      \n      <div style=\"background: #eef2ff; padding: 12px; border-radius: 6px; word-break: break-all; margin: 16px 0;\">\n        <span style=\"font-size: 13px; color: #4338ca;\">Your Referral Link:</span><br/>\n        <a href=\"http://localhost:5173?ref=TEST-F9CE1F\" style=\"color: #4f46e5; font-weight: bold;\">http://localhost:5173?ref=TEST-F9CE1F</a>\n      </div>\n\n      <p style=\"font-size: 13px; color: #64748b; margin-top: 30px;\">\n        Questions? Simply reply to this email.<br/>\n        &copy; 2026 Nova Tech.\n      </p>\n    </div>\n  ",
+      "status": "sent",
+      "created_at": "2026-09-12T23:46:58.328Z"
+    }
+  ]
+}
